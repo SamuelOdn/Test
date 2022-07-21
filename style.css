@@ -1,0 +1,143 @@
+.container{
+
+    width: 700px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px solid black;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.nav a:hover{
+  font-size: 20px;
+}
+
+header{
+  display: flex;
+
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+
+}
+
+.title{
+  text-align: center;
+  justify-content: center;
+}
+
+.title .html{
+  border-top: 2px solid pink;
+  margin-bottom: none;
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+  background-color: #ffcccc;
+  color: #e84393;
+  margin-bottom: -30px;
+  width: 250px;
+  margin-left: 220px;
+  font-size: 32px; 
+}
+
+.menu-central{
+  display: flex;
+}
+
+.menu-central .css{
+  border: 1px solid #00BFFF;
+  background-color: #B0E0E6;
+  color: #00BFFF;
+  width: 200px;
+  font-size: 30px;
+}
+
+.menu-central .js{
+  border: 1px solid gold;
+  background-color: #ccac00;
+  color: gold;
+  width: 200px;
+  font-size: 30px;
+
+}
+
+.menu-central{
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+}
+
+.left-menu span{
+  font-size: 25px;
+  color: grey;
+}
+
+.left-menu ul li{
+  list-style: none;
+  margin: 5px;
+
+}
+
+.resume{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.right-menu{
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-bottom: -20px;
+}
+
+
+.right-menu button a{
+  text-decoration: none;
+  color: blue;
+
+}
+
+.right-menu button:hover{
+  background-color: hotpink;
+}
+
+.right-menu button{
+   border: 2px solid pink;
+   padding: 10px;
+   border-radius: 4px 4px 4px 4px;
+   margin: 5px;
+   background-color: pink;
+
+ }
+#session1, #session2, #session3{
+  scroll-behavior: smooth;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: auto;
+}
+.row{
+  color: hotpink;
+  background-color: lightpink;
+}
+.col{
+  color: #00BFFF;
+  background-color: #B0E0E6;
+  font-weight: bold;
+}
+.text{
+
+   text-align: justify;
+}
